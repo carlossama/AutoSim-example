@@ -1,0 +1,1 @@
+This is an equation based 1-D longitudinal model. Vehicle power is calculated from commanded torque, and power loss is proportional to velocity. All power and physical properties are parameterized.

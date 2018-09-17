@@ -1,0 +1,1 @@
+This is a simscape model for a 3-Dof longitudinal vehicle. Vehicle power is from commanded torque input. Tires, and vehicle physical properties have been parameterized.

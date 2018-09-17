@@ -1,0 +1,6 @@
+veh,,
+parameter,value,notes
+mass_kg,1500,overall vehicle mass
+whlRad_m,0.6,radius of wheels
+pwrLossFact,0.015,coefficient to power loss proportional to velocity
+maxMotTrq_Nm,100,maximum motor torque

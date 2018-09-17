@@ -1,0 +1,4 @@
+ctl,,
+parameter,value,notes
+Kp,15,proportional gain 
+Ki,1,integral gain

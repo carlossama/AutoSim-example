@@ -1,0 +1,5 @@
+ctl,,
+parameter,value,notes
+Kp,15,proportional gain for PI control
+Ki,1,integral gain for PI control 
+kff,0.05,velocity feed forward constant

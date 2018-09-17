@@ -1,0 +1,1 @@
+This model utilizes the Simulink longitudinal driver block. The proportional and integral gain constants have been parameterized as well as velocity feed forward factor.

@@ -1,0 +1,12 @@
+veh,,
+parameter,value,notes
+mass_kg,1500,overall vehicle mass
+motMaxTrq_N,100,maximum motor torque
+whlRad_m,0.6,wheel radius
+whlStatFric,0.7,static friction coefficient of the tires
+whlKinFric,0.5,kinetic friction coefficient of the tires
+whlRollRstnce,0.015,rolling resistance coefficient of the tires
+frWhlInertia_kgm2,1.2,inertia of the front axle 
+rWhlInertia_kgm2,1.2,inertia of the rear axle
+axlStiffness_N-m,10000,stiffness of the axle (spring constant)
+axleDamp_N-m-s,5000,damping of the axle (damping constant)
