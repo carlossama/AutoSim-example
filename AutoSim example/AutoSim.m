@@ -13,7 +13,9 @@
 function AutoSim()
 
     
-    mainDir = 'D:\EcoCAR\AutoSim example\'; % CHANGE ROOT DIRECTORY
+    dirStart = strfind(mfilename('fullpath'), 'AutoSim example') - 1; % CHANGE ROOT DIRECTORY
+    saveDir = mfilename('fullpath');
+    mainDir = strcat(saveDir(1:dirStart),'AutoSim example\');
     addpath(genpath(mainDir));
     runFileDir = AutoSim_GUI(); 
     load_system('simpleBEV');

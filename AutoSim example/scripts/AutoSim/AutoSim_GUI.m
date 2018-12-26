@@ -35,7 +35,10 @@ end
 
 function AutoSim_GUI_OpeningFcn(hObject, eventdata, handles, varargin)
 set(handles.figure1,'Units','normalized')
-handles.mainDir = 'D:\EcoCAR\AutoSim example\'; %CHANGE MAIN DIR HERE (two other places also)
+dirStart = strfind(mfilename('fullpath'), 'AutoSim example') - 1;
+saveDir = mfilename('fullpath');
+saveDir = strcat(saveDir(1:dirStart),'AutoSim example\');
+handles.mainDir = saveDir; %'D:\EcoCAR\AutoSim example\'; %CHANGE MAIN DIR HERE (two other places also)
 FigWidth = .20;
 pos = get(handles.figure1, 'Position');
 set(handles.figure1, 'Position', [pos(1) pos(2) FigWidth pos(4)])
@@ -85,7 +88,10 @@ function subsystem1_b_CreateFcn(hObject, eventdata, handles)
 
 hObject.String = 'CONTROLLER';
 
-handles.mainDir = 'D:\EcoCAR\AutoSim example\'; % CHANGE MAIN DIR HERE
+dirStart = strfind(mfilename('fullpath'), 'AutoSim example') - 1;
+saveDir = mfilename('fullpath');
+saveDir = strcat(saveDir(1:dirStart),'AutoSim example\');
+handles.mainDir = saveDir; %'D:\EcoCAR\AutoSim example\'; %CHANGE MAIN DIR HERE (two other places also)
 d = dir(strcat(handles.mainDir, 'Controller'));
 isub = [d(:).isdir]; 
 fileList = {d(isub).name}';
@@ -111,7 +117,10 @@ function subsystem2_b_CreateFcn(hObject, eventdata, handles)
 
 hObject.String = 'PLANT';
 
-handles.mainDir = 'D:\EcoCAR\AutoSim example\'; % CHANGE MAIN DIR HERE
+dirStart = strfind(mfilename('fullpath'), 'AutoSim example') - 1;
+saveDir = mfilename('fullpath');
+saveDir = strcat(saveDir(1:dirStart),'AutoSim example\');
+handles.mainDir = saveDir; %'D:\EcoCAR\AutoSim example\'; %CHANGE MAIN DIR HERE (two other places also)
 d = dir(strcat(handles.mainDir, 'Plant'));
 isub = [d(:).isdir]; 
 fileList = {d(isub).name}';
