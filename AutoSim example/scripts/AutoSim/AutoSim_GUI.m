@@ -4,7 +4,7 @@
 %     \____/ |__/|__/ /___/\__/\___/\___/_/ |_/_/|_|  
 %     System Modeling and Simulations 
 %
-% AutoSim Graphic User Interface v1.0
+% AutoSim Graphic User Interface v1.1
 % Written by: Carlos Sama, Aug 31
 
 

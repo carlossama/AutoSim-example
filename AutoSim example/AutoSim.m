@@ -4,7 +4,7 @@
 %     \____/ |__/|__/ /___/\__/\___/\___/_/ |_/_/|_|  
 %     System Modeling and Simulations 
 %
-% AutoSim Main Script v1.0
+% AutoSim Main Script v1.1
 % Written by: Carlos Sama, Sep 14
 
 
